@@ -1,0 +1,86 @@
+#title{
+    text-align: center;
+}
+
+#fruList{
+    list-style: none;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+
+
+}
+
+#vegList{
+    list-style: none;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+
+}
+
+#mango{
+    width: 15em;
+    border-radius: 1em;
+}
+
+ #banana{
+    width: 15em;
+    height: 15em;
+    border-radius: 1em;
+}
+
+ #melon{
+    width: 15em;
+    height: 15em;
+    border-radius: 1em;
+}
+
+
+ #onion{
+    width: 15em;
+    height: 15em;
+    border-radius: 1em;
+}
+
+#tomato{
+    width: 15em;
+    height: 15em;
+    border-radius: 1em;
+}
+
+#kales{
+    width: 15em;
+    height: 15em;
+    border-radius: 1em;
+}
+
+.price{
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:500px) and (min-width:0px){
+#fruList{
+    flex-direction: column;
+
+}
+
+#vegList{
+flex-direction: column;
+}
+
+}
+
+
+@media only screen and (max-width:600px) and (min-width:501px){
+
+#fruList{
+flex-direction: column;
+}
+
+#vegList{
+    flex-direction: column;
+}
+}
