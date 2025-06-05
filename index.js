@@ -180,6 +180,30 @@ clickButton.style.borderRadius='3em'
 clickButton.style.marginLeft='58em'
 clickButton.style.marginTop='-2em'
 clickButton.style.color='white'
+clickButton.style.width='8%'
+
+const clickbtn=document.getElementById('btn')
+clickbtn.addEventListener('click', ()=>{
+    alert('Added to cart');
+});
+clickbtn.style.backgroundColor='green'
+clickbtn.style.float='left'
+clickbtn.style.height='3em'
+clickbtn.style.borderRadius='3em'
+clickbtn.style.marginLeft='58em'
+clickbtn.style.marginTop='-2em'
+clickbtn.style.color='white'
+clickbtn.style.width='8%'
+
+
+
+
+
+
+
+
+
+
 
 
 
