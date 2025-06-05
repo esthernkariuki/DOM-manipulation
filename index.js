@@ -30,7 +30,7 @@ let fruitsh3=document.getElementsByTagName("h3")
             fruitsh3[i].style.textTransform="uppercase";
             fruitsh3[i].style.color="green";
             fruitsh3[i].style.padding="20px";
-            fruitsh3[i].style.backgroundColor="white";
+            fruitsh3[i].style.backgroundColor="papayawhip";
             fruitsh3[i].style.margin="35px auto"; 
             fruitsh3[i].style.textAlign="center"; 
          }
@@ -96,6 +96,8 @@ pineappleContainer.className = 'categoryContainer';
    pineappleContainer.style.height = '25em';
    pineappleContainer.style.color = 'black'
    pineappleContainer.style.marginTop='-2.9em';
+   pineappleContainer.style.marginLeft='-2em'
+
  
 
 const pineappleImg = new Image();
@@ -112,7 +114,7 @@ pineapplePrice.innerHTML = '<p>Price</p><p>$2</p>';
 
 const pineappleQty = document.createElement('div');
 pineappleQty.className = 'price';
-pineappleQty.innerHTML = '<p>Quantity</p><p>kgs</p>';
+pineappleQty.innerHTML = '<p>Quantity</p><p>10kgs</p>';
 pineappleQty.style.display = 'flex'
 pineappleQty.style.justifyContent= 'space-between'
 
@@ -143,6 +145,7 @@ carrotImg.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYpvXV8yA
 carrotImg.style.width = '15em';
 carrotImg.style.height = '15em';
 carrotImg.style.borderRadius = '1em';
+carrotImg.style.marginLeft='-2em'
 
 const carrotPrice = document.createElement('div');
 carrotPrice.className = 'price';
@@ -155,7 +158,7 @@ carrotPrice.style.justifyContent= 'space-between'
 
 const carrotQty = document.createElement('div');
 carrotQty.className = 'price';
-carrotQty.innerHTML = '<p>Quantity</p><p>kgs</p>';
+carrotQty.innerHTML = '<p>Quantity</p><p>16kgs</p>';
 carrotQty.style.display = 'flex'
 
 carrotQty.style.justifyContent= 'space-between'
@@ -176,6 +179,7 @@ clickButton.style.height='3em'
 clickButton.style.borderRadius='3em'
 clickButton.style.marginLeft='58em'
 clickButton.style.marginTop='-2em'
+clickButton.style.color='white'
 
 
 

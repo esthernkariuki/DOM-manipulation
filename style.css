@@ -5,7 +5,7 @@
 #fruList{
     list-style: none;
     display: flex;
-    gap: 5em;
+    gap: 3em;
     justify-content: center;
 
 
@@ -14,73 +14,152 @@
 #vegList{
     list-style: none;
     display: flex;
-    gap: 5em;
+    gap: 3em;
     justify-content: center;
 
 }
 
-#mango{
-    width: 15em;
-    border-radius: 1em;
-}
-
- #banana{
-    width: 15em;
-    height: 15em;
-    border-radius: 1em;
-}
-
- #melon{
-    width: 15em;
-    height: 15em;
-    border-radius: 1em;
-}
-
-
- #onion{
-    width: 15em;
-    height: 15em;
-    border-radius: 1em;
-}
-
-#tomato{
-    width: 15em;
-    height: 15em;
-    border-radius: 1em;
-}
-
-#kales{
-    width: 15em;
-    height: 15em;
-    border-radius: 1em;
-}
 
 .price{
     display: flex;
     gap: 2em;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-@media only screen and (max-width:500px) and (min-width:0px){
+@media only screen and (min-width:0px) and (max-width:500px) {
+   *{
+        box-sizing: border-box;
+        overflow-x: hidden;
+        margin: auto;
+        gap: 4em;
+    } 
 #fruList{
     flex-direction: column;
+    font-size: 1em;
 
+}
+h3,h1{
+    width: 100%;
+    text-align: center;
 }
 
 #vegList{
 flex-direction: column;
+text-align: center;
+}
+#title{
+    width: 100%;
+    text-align: center;
+    font-size: 0.4em;
+   
+}
+.categoriesContainer{
+    gap: 1em;
+    justify-content: center;
+}
+h3{
+    font-size: 1.5em;
 }
 
 }
 
 
-@media only screen and (max-width:600px) and (min-width:501px){
+@media only screen and (min-width:501px) and (max-width:800px){
+    *{
+        box-sizing: border-box;
+        overflow-x: hidden;
+        margin: auto;
+        gap: 4em;
+    }
 
 #fruList{
 flex-direction: column;
+font-size: 1.5em;
 }
 
 #vegList{
     flex-direction: column;
+    font-size: 1.5em;
 }
+#title{
+    width: 100%;
+    text-align: center;
+    
+}
+.categoriesContainer{
+    gap: 1em;
+    justify-content: center;
+}
+h3{
+    font-size: 1.5em;
+}
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1000px){
+    *{
+        box-sizing: border-box;
+        overflow-x: hidden;
+        margin: auto;
+        gap: 4em;
+    }
+#fruList{
+    flex-direction: column;
+    font-size: 1.5em;
+}
+#vegList{
+    flex-direction: column;
+    font-size: 1.5em;
+}
+#title{
+    width: 100%;
+    text-align: center;
+    
+}
+.categoriesContainer{
+    gap: 1em;
+    justify-content: center;
+   
+}
+h3{
+    font-size: 1.5em;
+}
+
+}
+@media only screen and (min-width:1001px) {
+    *{
+        box-sizing: border-box;
+        overflow-x: hidden;
+        margin:0 auto;
+        gap: 4em;
+       
+    }
+#fruList{
+    flex-direction: row;
+  
+}
+#vegList{
+    flex-direction: row;
+ 
+}
+#title{
+    width: 100%;
+    text-align: center;
+    
+}
+.categoriesContainer{
+    gap: 1em;
+    justify-content: center;
+   
+    >img{
+    width: 20em;
+    height:10vh;
+}
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+
 }
